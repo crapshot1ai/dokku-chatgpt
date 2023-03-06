@@ -14,7 +14,7 @@ To run use the chatbot: Register at https://platform.openai.com/ for an API key.
 
 # Deployment with Dokku
 
-example: deploy wordpress blog for **example.com** with the app name **chat** yielding **chat.example.com**
+example: deploy chatbot for **example.com** with the app name **chat** yielding **chat.example.com**
 
 ### create folder for deployment
 
