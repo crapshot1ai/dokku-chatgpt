@@ -35,10 +35,10 @@ example: deploy chatbot for **example.com** with the app name **chat** yielding 
 
 ### install and enable letsencrypt plugin to get ssl certificate
 
-`sudo dokku plugin:install https://github.com/dokku/dokku-letsencrypt.git` #install letsencript plugin 
-`dokku config:set --global DOKKU_LETSENCRYPT_EMAIL=your@email.tld` #define email ... only once 
-`dokku letsencrypt:enable chat`
-`dokku letsencrypt:auto-renew` #activate auto-renewal of ssl certs
-`dokku letsencrypt:cron-job --add` #setup cronjob to do auto renewal 
+`sudo dokku plugin:install https://github.com/dokku/dokku-letsencrypt.git` #install letsencript plugin \
+`dokku config:set --global DOKKU_LETSENCRYPT_EMAIL=your@email.tld` #define email ... only once \
+`dokku letsencrypt:enable chat`\
+`dokku letsencrypt:auto-renew` #activate auto-renewal of ssl certs \
+`dokku letsencrypt:cron-job --add` #setup cronjob to do auto renewal \
 
 ## website to be reached via **chat.example.com** served via https
